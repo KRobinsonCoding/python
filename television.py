@@ -71,6 +71,6 @@ class Television:
         Method that returns the television status
         """
         if self.__muted__:
-            return f'Power - {self.__status__}, Channel - {self.__channel__}, Volume - {0}.'
+            return f'Power = {self.__status__}, Channel = {self.__channel__}, Volume = {0}.'
         else:
-            return f'Power - {self.__status__}, Channel - {self.__channel__}, Volume - {self.__volume__}.'
+            return f'Power = {self.__status__}, Channel = {self.__channel__}, Volume = {self.__volume__}.'
